@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharanya Chilari - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Sharanya</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Hi, I'm Sharanya Chilari</h1>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate developer with experience in  C++,Java, and problem-solving. I enjoy building practical projects and learning new technologies.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>C/C++</span>
+            <span>Java</span>
+            <span>Python</span>
+            <span>MySQL</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Secure Login & Authentication System</h3>
+            <p>Designed and implemented a secure, console-based login system using Java. Integrated Role-Based Access Control (RBAC) for Admin, HOD, Faculty, Non-Teaching Staff, and Students. Credentials are secured with SHA-256 hashing, and MySQL is used for persistent centralized data storage. Applied core OOP concepts like Abstraction, Inheritance, Encapsulation, and Polymorphism.</p>
+        </div>
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>Responsive website built with HTML, CSS, and JavaScript to showcase my skills, projects, and contact information. Includes smooth scrolling, animations, and a contact form with validation.</p>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sharanya Chilari</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
